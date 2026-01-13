@@ -5,7 +5,7 @@
 } 
   body
   {
-	   background-image:url(fundo1.jpeg);
+	   background-image:url(fundo3.jpeg);
 	   background-size:100%;
 	   background-position:center;
 	   background-repeat:no-repeat;
@@ -77,4 +77,5 @@
    /*serve para mudar cor do cursor do mouse sobre os menus */  
   {
 	  color:#FF0008; 
+
   }
