@@ -1,0 +1,87 @@
+*
+{
+	 padding:0;
+	 margin: 0;
+} 
+  body
+  {
+	   background-image:url(fundo3.jpg);
+	   background-size:100%;
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   box-sizing: border-box;
+       font-family:sans-serif;
+}
+.menu-bar
+{
+	background:rgb(48,148,6);
+	text-align:center
+	(218,165,32)
+	/*serve para mudar cor da barra dos menus */  
+}   	
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color:#f00;
+	/*testes cor do*/
+
+}
+ .menu-bar ul li  
+{
+	width:150px;
+	margin:8px;
+	padding:8px;
+}
+.menu-bar ul li a 
+{
+	text-decoration:none;
+	color:#bbb;
+}    
+.active, .menu-bar ul li:hover
+           {background:rgb(48,148,6);
+	./* background:#B8860B;
+
+	border-radius:3px; 
+	 /*serve para mudar cor da caixa sobre o menu  quando o  mouse passar */  
+} 
+.menu-bar.fa
+{
+	margin:8px;
+}
+.sub-menu-1
+{
+  display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+  {
+	 display:block;
+	 position:absolute;
+	 background:rgb(0,100,0);
+	 margin-top:15px;
+	 margin-left: -15px;
+ }
+	  .menu-bar ul li:hover .sub-menu-1 ul
+ {
+ display:block;
+ margin:10px;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul li
+  {
+	  width:150px;
+	  padding:10px;
+	  border-bottom:1px dotted #fff;
+	  background:transparent;
+	  border:radius;
+	  text-align:left;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+  { 
+  border-bottom:none;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover 
+   /*serve para mudar cor do cursor do mouse sobre os menus */  
+  {
+	  color:#FFFFFF; 
+	  
+  }
